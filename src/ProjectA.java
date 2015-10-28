@@ -11,11 +11,11 @@ public class ProjectA {
 		double compensation;
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("Input your name : ");
-		name = in.nextLine();						//รับค่าชื่อ
-		System.out.print("Input your salary : ");
-		salary = in.nextDouble();					//รับค่าเงินเดือน
-		System.out.print("Input your sales : ");
+		System.out.print("Input your name : ");		//รับค่าชื่อพนักงาน
+		name = in.nextLine();						
+		System.out.print("Input your salary : ");	//รับค่าเงินเดือนพนักงาน
+		salary = in.nextDouble();					
+		System.out.print("Input your sales : ");	//รับค่ายอดขายพนักงาน
 		sales = in.nextDouble();
 		
 	}
