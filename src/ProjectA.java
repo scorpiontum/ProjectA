@@ -18,7 +18,7 @@ public class ProjectA {
 		System.out.print("Input your sales : ");	//รับค่ายอดขายพนักงาน
 		sales = in.nextDouble();
 		
-		if(sales > 50000){
+		if(sales > 100000){
 			Commission = sales*0.03;
 		}else if(sales > 25000){
 			Commission = sales*0.02;
